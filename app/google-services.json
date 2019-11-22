@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "162026116569",
+    "firebase_url": "https://padc-login.firebaseio.com",
+    "project_id": "padc-login",
+    "storage_bucket": "padc-login.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:162026116569:android:e9d0a4241c03a095def5c8",
+        "android_client_info": {
+          "package_name": "com.greenovator.padc_login"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "162026116569-n1nu1tnhput4kj7kqtur9lj05md80ojv.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.greenovator.padc_login",
+            "certificate_hash": "21f9cca13f35b8c47f3f537fc794e8aa544adff2"
+          }
+        },
+        {
+          "client_id": "162026116569-k7ho9b1b8hqhsj7tr60100t9qb95un63.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBhVWeQS9PO3qKwITOiW0NK5QXrO2ILMMw"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "162026116569-k7ho9b1b8hqhsj7tr60100t9qb95un63.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
