@@ -1,20 +1,44 @@
 <?xml version="1.0" encoding="utf-8"?>
-<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     app:layout_behavior="@string/appbar_scrolling_view_behavior"
     tools:context=".activities.MainActivity"
+    android:gravity="center"
+    android:orientation="vertical"
     tools:showIn="@layout/activity_main">
 
+    <de.hdodenhof.circleimageview.CircleImageView
+        android:layout_width="96dp"
+        android:layout_height="96dp"
+        android:scaleType="centerCrop"
+        android:id="@+id/profile_imageView"/>
     <TextView
+        android:id="@+id/profile_username"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:textSize="@dimen/text_size_20"
+        android:text="@string/username"
+        android:layout_margin="@dimen/spacing_double"/>
+    <TextView
+        android:id="@+id/profile_email"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="email"
+        android:textSize="@dimen/text_size_20"
+        android:gravity="center"/>
+    <Button
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Hello World!"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintLeft_toLeftOf="parent"
-        app:layout_constraintRight_toRightOf="parent"
-        app:layout_constraintTop_toTopOf="parent" />
+        android:layout_margin="@dimen/spacing_double"
+        android:paddingLeft="@dimen/spacing_double"
+        android:paddingEnd="@dimen/spacing_double"
+        android:background="@drawable/button"
+        android:text="logout"
+        android:textColor="@color/orange"
+        android:id="@+id/btn_logout"/>
 
-</androidx.constraintlayout.widget.ConstraintLayout>
+</LinearLayout>

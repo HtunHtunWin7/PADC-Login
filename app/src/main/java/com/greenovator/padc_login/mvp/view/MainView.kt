@@ -1,4 +1,7 @@
 package com.greenovator.padc_login.mvp.view
 
-interface MainView {
+interface MainView :BaseView{
+    fun onClickLogoutButton()
+    fun showUserProfile()
+    fun checkLoginUser()
 }
